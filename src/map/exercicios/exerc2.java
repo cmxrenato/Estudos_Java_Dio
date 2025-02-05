@@ -9,10 +9,11 @@ public class exerc2 {
         Set<Integer> unicos = new HashSet<>();
         List<Integer> repetidos = new ArrayList<>();
         int a = 0, b = 0, c = 0, d = 0, e = 0, f = 0;
+        int numLancamentos= 6;
 
         for(int i = 0; i < 100; i++){
 
-            Integer dado = random.nextInt(6)+1;
+            Integer dado = random.nextInt(numLancamentos)+1;
             if(!unicos.add(dado)){
                 repetidos.add(dado);
                 switch (dado){

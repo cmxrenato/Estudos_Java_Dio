@@ -66,5 +66,6 @@ public class exerc1 {
         System.out.println(dicionarioEstados2.isEmpty());
 
 
+
     }
 }
