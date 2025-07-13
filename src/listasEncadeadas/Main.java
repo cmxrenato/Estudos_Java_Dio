@@ -15,7 +15,7 @@ public class Main {
 		
 		
 		//Método implementado por mim.
-		listaEncadeada.append("num 22", 3);
+		//listaEncadeada.append("num 22", 3);
 		
 		
 		System.out.println(listaEncadeada);
